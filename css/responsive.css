@@ -82,7 +82,7 @@
 	.logo{ width:100px;}
 	.main-section.contact{ background-size:contain;}
 	.Portfolio-nav li a{ padding:5px 16px;}
-	.Portfolio-nav li{ display:block;}
+	.Portfolio-nav li{ display:inline-block;}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -90,6 +90,12 @@
 	.portfolioContainer{ width:350px; margin:0px auto !important; } */
 
 
+	.container.header-box {
+		position: absolute;
+		top:40%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
 }
 
 @media only screen and (max-width: 479px) {
